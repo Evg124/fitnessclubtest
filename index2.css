@@ -1,0 +1,621 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://vsthemes.org/uploads/posts/2019-05/1582033770_metal_vsthemes_ru-18.jpg) ;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    
+    max-width: 100%;
+
+}
+
+.menu{
+    display: flex;
+   font-size:14px;
+   background-image: url(https://st39.stpulscen.ru/images/product/391/993/120_big.png);
+    padding-top:10px;
+    padding-bottom:10px;
+    min-width: 90%;
+    box-shadow: 2px 2px rgba(204, 195, 183, 0.428);
+    
+    
+    
+    
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+.hh1{
+    font-size:50px;
+    margin-left: 35%;
+    text-shadow :  2px 2px gray ;
+}
+
+.logo>img{
+    width:100px;
+    height:90px;
+    border-radius:50%;
+}
+.logo{
+    padding-left: 10px;
+    
+}
+.zap{
+    margin-left:50%;
+    padding-left:10px;
+    padding-right:10px;
+    margin-right:0px;
+    color: white;
+    padding-top:30px;
+}
+.dop{
+    padding-left:10px;
+    padding-right:10px;
+    color: white;
+    padding-top:30px;
+}
+.cen{
+    padding-left:10px;
+    padding-right:10px;
+    color: white;
+    padding-top:30px;
+}
+.kat{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:30px;
+    
+}
+
+
+
+.zap:hover{
+    background-image: url(https://st39.stpulscen.ru/images/product/391/993/120_big.png);
+    font-size: 25px;
+
+}
+.cen:hover{
+    background-image: url(https://st39.stpulscen.ru/images/product/391/993/120_big.png);
+    font-size: 25px;
+
+}
+.kat:hover{
+    background-image: url(https://st39.stpulscen.ru/images/product/391/993/120_big.png);
+    font-size: 25px;
+
+}
+.dop:hover{
+    background-image: url(https://st39.stpulscen.ru/images/product/391/993/120_big.png);
+    font-size: 25px;
+
+}
+
+.photo{
+    margin-left:20%;
+}
+
+.slider_picture:before{bottom:-2.5em;box-shadow:inset 0 1px 1px 1px hsla(0,0%,100%,.2),inset 0 -2px 1px hsla(0,0%,0%,.4),0 5px 50px hsla(0,0%,0%,.25),0 20px 20px -15px hsla(0,0%,0%,.2),0 30px 20px -15px hsla(0,0%,0%,.15),0 40px 20px -15px hsla(0,0%,0%,.1);content:'';left:-2.5em;position:absolute;right:-2.5em;top:-2.5em;z-index:-1}
+.slider_picture:after{bottom:-1.5em;box-shadow:0 2px 1px hsla(0,0%,100%,.2),0 -1px 1px 1px hsla(0,0%,0%,.4),inset 0 2px 3px 1px hsla(0,0%,0%,.2),inset 0 4px 3px 1px hsla(0,0%,0%,.2),inset 0 6px 3px 1px hsla(0,0%,0%,.1);content:'';left:-1.5em;position:absolute;right:-1.5em;top:-1.5em;z-index:-1}
+.slider_picture li{box-shadow:0 -1px 0 2px hsla(0,0%,0%,.03);list-style:none;position:absolute}
+.slider_picture input{display:none}
+.slider_picture label{background-color:#111;background-image:linear-gradient(transparent,hsla(0,0%,0%,.25));border:.2em solid transparent;bottom:.5em;border-radius:100%;cursor:pointer;display:block;height:.5em;left:24em;opacity:0;position:absolute;transition:.25s;width:.5em;visibility:hidden;z-index:10}
+.slider_picture label:after{border-radius:100%;bottom:-.2em;box-shadow:inset 0 0 0 .2em #111,inset 0 2px 2px #000,0 1px 1px hsla(0,0%,100%,.25);content:'';left:-.2em;position:absolute;right:-.2em;top:-.2em}
+.slider_picture:hover label{opacity:1;visibility:visible}
+.slider_picture input:checked + label{background-color:#fff}
+.slider_picture:hover li:nth-child(1) label{left:.5em}
+.slider_picture:hover li:nth-child(2) label{left:2em}
+.slider_picture:hover li:nth-child(3) label{left:3.5em}
+.slider_picture:hover li:nth-child(4) label{left:5em}
+.slider_picture img{height:500px;opacity:0;transition:.50s;width:700px;vertical-align:top;visibility:hidden}
+.slider_picture li input:checked ~ img{opacity:1;visibility:visible;z-index:10}
+
+.spec{
+    margin-top: 600px;
+}
+.spec1{
+    display: flex;
+    
+}
+.spec2{
+    display: flex;
+}
+.spec3{
+        display: flex;
+    
+}
+.photobox img{
+    width: 300px;
+    border-radius:30px;
+    box-shadow: 5px 3px rgba(231, 218, 201, 0.636);
+
+}
+.photobox img:hover{
+    cursor: pointer;
+    width: 350px;
+}
+.photofitness img:hover{
+    cursor: pointer;
+    width: 350px;
+}
+.photocrossfit img:hover{
+    cursor: pointer;
+    width: 350px;
+}
+.infobox{
+    padding-top: 50px;
+    font-size: 20px;
+    padding-left:10px;
+    font: bold;
+    text-shadow :  2px 2px gray;
+   
+}
+.photofitness img{
+width: 300px;
+height: 200px;
+border-radius:30px;
+box-shadow: 5px 3px rgba(231, 218, 201, 0.636);
+
+}
+.infofitness{
+    padding-top: 50px;
+    padding-left:10px;
+    font-size: 20px;
+    font: bold;
+    text-shadow :  2px 2px gray;
+    
+}
+.photocrossfit img{
+    width: 300px;
+    height: 200px;
+    border-radius:30px;
+    box-shadow: 5px 3px rgba(231, 218, 201, 0.636);
+
+}
+.infocrossfit{
+    padding-top: 50px;
+    padding-left:10px;
+    font-size: 20px;
+    font: bold;
+    text-shadow :  2px 2px gray ;
+}
+.tren{
+    padding-top: 50px;
+    width: 100%;
+    background-image: url(https://st39.stpulscen.ru/images/product/391/993/120_big.png);
+    display: flex;
+    justify-content: space-between;
+    margin-left:0;
+    margin-right: 5%;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    
+    
+}
+.hh2{
+    font-size:50px;
+    margin-left: 36%;
+    text-shadow:  2px 2px rgb(93, 92, 92) ;
+    padding-bottom:20px;
+}
+.hh3{
+    font-size:50px;
+    margin-left: 43%;
+    text-shadow:  2px 2px rgb(93, 92, 92) ;
+    padding-bottom:20px;
+}
+.tren1{
+    padding-left: 2%;
+}
+.tren4{
+    padding-right: 2%;
+}
+.tren1 img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+cursor: pointer;
+
+}
+.tren2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+.tren3 img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        cursor: pointer;
+ }
+ .tren4 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    .tren1 img:hover{
+        width: 110px;
+        height: 110px;
+    }
+    .tren2 img:hover{
+        width: 110px;
+        height: 110px;
+    }
+    .tren3 img:hover{
+        width: 110px;
+        height: 110px;
+    }
+    .tren4 img:hover{
+        width: 110px;
+        height: 110px;
+    }
+    .treninfo{
+        font-size: 16px;
+        font-weight: bold;
+        text-shadow :  2px 2px gray;
+        color: aliceblue;
+    
+    }
+   .social{
+       display: flex;
+       font-size: 20px;
+       justify-content: space-between;
+       text-decoration: none;
+       padding-bottom: 20px;
+   }
+   a{
+    text-decoration: none;
+
+   }
+   .social img{
+       width: 50px;
+       border-radius: 50%;
+   }
+   .telegramm{
+       display: flex;
+   }
+   .socinfo{
+       padding-top:10px;
+       padding-left:5px;
+   }
+   
+   .Instagramm{
+    display: flex;
+}
+.VK{
+    display: flex;
+}
+
+.socinfo:hover{
+    font-size:23px;
+}
+.social a{
+    color: #000;
+    text-shadow:  2px 2px rgb(93, 92, 92) ;
+}
+
+
+
+@media screen and (max-width: 1380px) {
+    .zap{
+        margin-left:45%;
+
+    }
+    .photo{
+    margin-left:%;
+}
+}
+
+@media screen and (max-width: 990px) {
+    .zap{
+        margin-left:40%;
+
+    }
+    .photo{
+    margin-left:5%;
+}
+}
+
+
+@media screen and (max-width: 1087px) {
+    .photo{
+        margin-left:0%;
+
+    }
+
+}
+@media  screen and (max-width: 1090px) {
+      .spec1{
+          padding-bottom: 5px;
+      }  
+      .zap{
+        margin-left:23%;
+    }
+}
+
+
+@media screen and (max-width: 1060px) {
+
+}
+@media screen and (max-width: 1047px) {
+    .zap{
+        margin-left:20%;
+    }
+}
+
+
+@media screen and (max-width: 755px) {
+    .cen{
+        margin-left:10%;
+
+    }
+ 
+    .photo{
+        display:none;
+    }
+    .zap{
+        display: none;
+    }
+    .spec{
+        margin-top:20px;
+
+    }
+    .infobox{
+        margin-top: 0px;
+        padding-top: 0%;
+    }
+    .infofitness{
+        margin-top: 0px;
+        padding-top: 0%;
+    }
+    .infocrossfit{
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    .hh2{
+        
+        margin-left: 25%;
+        padding-top: 20px;
+    }
+    .hh2{
+        margin-left: 20%;
+        font-size:40px;
+    }
+    .trenfoto img{
+        width: 300px;
+        height: 300px;
+    }
+    .tren{
+        display: contents;
+        justify-content: center;
+    }
+    .tren1{
+        margin-left: 10%;
+        
+    }
+    .tren2{
+        margin-left: 10%;
+    }
+    .tren3{
+        margin-left: 10%;
+    }
+    .tren4{
+        margin-left: 10%;
+    }
+    .treninfo{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 40px;
+        padding-left:10%;
+    }
+    .social{
+        display: contents;
+        margin-left: 10%;
+    }
+    .telegramm{
+        padding-left: 10%;
+    }
+    .VK{
+        padding-left: 10%;
+    }
+    .Instagramm{
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width: 632px){
+.cen{
+margin-left: 5%;
+}
+}
+@media screen and (max-width: 600px){
+    .cen{
+    margin-left: 1%;
+    }
+    }
+@media screen and (max-width: 575px) {
+    .menu img{
+        height: 200px;
+    }
+    .menu{
+        padding-bottom:20px;}
+    .menu{
+        display: block;
+    }
+    .hh1{
+        font-size: 25px;
+        margin-left: 20%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .logo{
+        margin-left: 25%;
+    }
+    .logo>img{
+        width: 200px;
+    }
+    .zap{
+        margin-left: 0px;
+        padding-left: 35%;
+        padding-right: 20%;
+    }
+    .cen{
+        padding-left: 35%;
+        
+    }
+    .dop{
+        padding-left: 35%;
+    }
+    .kat{
+        padding-left: 35%;
+    }
+    .spec{
+        margin-top:0px;
+    }
+    .spec1 img{
+        width:95%;
+    }
+    .spec1{
+        display:contents;
+       
+    }
+    .spec2 img{
+        width:95%;
+        padding-top: 20px;
+    }
+    .spec2{
+        display:contents;
+        
+    }
+    .spec3 img{
+        width:95%;
+        padding-top: 20px;
+    }
+    .tren img{
+    width:200px;
+    height:200px;
+
+    }
+    .spec3{
+        display:contents;
+        padding-bottom: 20px;
+    }
+    .tren1{
+        padding-left: 10%;
+    }
+    .tren2{
+        padding-left: 10%;
+    }
+    .tren3{
+        padding-left: 10%;
+    }
+    .tren4{
+        padding-left: 10%;
+    }
+    .treninfo{
+     font-size:20px;
+    }
+    
+}
+@media screen and (max-width: 376px){
+    .menu{
+        padding-bottom:20px;
+    }
+    .menu img{
+        height: 180px;
+    }
+    .logo{
+        margin-left:20%;
+    }
+    .zap{
+
+        margin-left: 0px;
+        padding-left: 37%;
+        padding-right: 20%;
+    }
+    .cen{
+        margin-left: 0px;
+        padding-left: 37%;
+        padding-right: 20%;
+    }
+    .dop{
+        margin-left: 0px;
+        padding-left: 37%;
+        padding-right: 20%;
+    }
+    .kat{
+        margin-left: 0px;
+        padding-left: 37%;
+        padding-right: 20%;
+    }
+
+}
+@media screen and (max-width: 415px){
+    .menu{
+        padding-bottom:20px;}
+    .menu img{
+        height: 200px;
+    }
+    .logo{
+        margin-left:20%;
+    }
+    .zap{
+
+        margin-left: 0px;
+        padding-left: 37%;
+        padding-right: 20%;
+    }
+    .cen{
+        margin-left: 0px;
+        padding-left: 37%;
+        padding-right: 20%;
+    }
+    .dop{
+        margin-left: 0px;
+        padding-left: 37%;
+        padding-right: 20%;
+    }
+    .kat{
+        margin-left: 0px;
+        padding-left: 37%;
+        padding-right: 20%;
+    }
+
+}
+
+@media screen and (max-width: 281px){
+    .menu{
+        padding-bottom:20px;}
+    .menu img{
+        height: 200px;
+    }
+    .logo{
+        margin-left:10%;
+    }
+    .zap{
+
+        margin-left: 0px;
+        padding-left: 30%;
+        padding-right: 20%;
+    }
+    .cen{
+        margin-left: 0px;
+        padding-left: 30%;
+        padding-right: 20%;
+    }
+    .dop{
+        margin-left: 0px;
+        padding-left: 30%;
+        padding-right: 20%;
+    }
+    .kat{
+        margin-left: 0px;
+        padding-left: 30%;
+        padding-right: 20%;
+    }
+
+}
